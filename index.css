@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  padding: 0 2rem;
+}
+
+header p {
+  text-align: end;
+}
+
+nav {
+  display: flex;
+  padding: 0 1rem;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid darkslategrey;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: black;
+}
+
+.bookLibrary {
+  text-align: center;
+}
+
+.lib-container {
+  border: 2px solid;
+}
+
+.library {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2vh;
+  padding: 1rem;
+  background-color: #d3d3d3;
+}
+
+.library:nth-child(even) {
+  background-color: #fff;
+}
+
+.removeBook {
+  background-color: #fff;
+  box-shadow: 0.2rem 0.3rem 0.2rem black;
+}
+
+.bookForm {
+  padding: 0 3rem;
+  text-align: center;
+}
+
+.bookForm form {
+  display: flex;
+  flex-direction: column;
+}
+
+#bookTitle,
+#bookAuthor {
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+}
+
+#addBookBtn {
+  padding: 0.5rem;
+  width: 25%;
+  align-self: flex-end;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15vh auto;
+  width: 80%;
+}
+
+footer {
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+.bookLibrary,
+.bookForm,
+.contactInfo {
+  display: none;
+}
