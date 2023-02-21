@@ -5,7 +5,7 @@ const bookTitle = document.querySelector('#bookTitle');
 const bookAuthor = document.querySelector('#bookAuthor');
 const addBookBtn = document.querySelector('#addBookBtn');
 
-let Books =  JSON.parse(localStorage.getItem('Books')) ? JSON.parse(localStorage.getItem('Books')) : [];
+const Books = JSON.parse(localStorage.getItem('Books')) ? JSON.parse(localStorage.getItem('Books')) : [];
 
 addBookBtn.addEventListener('click', (e) => {
   if (bookTitle.value === '' || bookAuthor.value === '') {

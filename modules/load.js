@@ -6,6 +6,4 @@ export default window.onload = () => {
     Books = JSON.parse(localStorage.getItem('Books'));
   }
   addBooks(Books);
-
 };
-
