@@ -7,4 +7,3 @@ export default window.onload = () => {
   }
   addBooks(Books);
 };
-
