@@ -31,6 +31,12 @@
 - CSS3.
 - Javascript OOP, ES6.
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Here you can see the live demo of my project:
+
+- [Live Demo Link](https://johnie261.github.io/Awesome-BooksES6/)
+
 # 💻 Getting Started:
 ### To get a local copy up and running, follow these steps:
 
